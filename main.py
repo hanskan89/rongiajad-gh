@@ -114,6 +114,10 @@ for route in routes:
 		print(" ")
 		print("######")
 
-#console.log(trips)	
-	
+PATH_TO_MY_FILE = './example.txt'
+CONTENT_FOR_MY_FILE = trips
+def writeToFile(path, content):
+	  file = open(path, "w")
+	  file.write(content)
+	  file.close()
 	
